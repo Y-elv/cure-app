@@ -1,11 +1,34 @@
-*{
-    margin:0px;
+* {
+    margin: 0px;
     padding: 0px;
-    }
-    body{
-        background-color:#0F0E0E;
-        color: #14FFEC;
-       
-       
-    }
+}
+
+body {
+    background-color: #0F0E0E;
+    color: #14FFEC;
+
+
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* in order to those 2 property work you need flex   */
+    height: 20vh;
+
+}
+
+.up p {
+    font-size: 34px;
+}
+
+.up {
+    display: flex;
+    background-color: aliceblue;
+    width: 570px;
+    height: 70px;
+    justify-content: space-around;
     
+
+}
