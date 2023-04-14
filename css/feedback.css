@@ -31,7 +31,7 @@ body{
 }
 form h3{
      padding: 10px 0;
-     color: aqua;
+     color: #14FFEC;
 }
 form .id{
      position: relative;
@@ -42,15 +42,15 @@ form input{
      height: 50px;
      margin: 4px 0;
      border-radius: 3px ;
-     border: 1px solid aqua;
+     border: 1px solid #14FFEC;
      background: #000;
      padding: 0 15px;
      font-size: 20px;
-     color: aqua;
+     color: #14FFEC;
 }
 form textarea{
      padding: 5px 15px;
-     border: 1px solid aqua;
+     border: 1px solid #14FFEC;
      border-radius: 3px;
      background: black;
      font-size: 20px;
@@ -62,10 +62,33 @@ form textarea{
 button{
      margin-top: 5px;
      border: none;
-     background-color: aqua;
+     background-color: #14FFEC;
      padding: 10px 0;
      width: 100%;
      font-size: 20px;
      font-weight: 800;
      border-radius: 50px;
 }
+.down {
+     width: 45%;
+     height: 40%;
+     display: flex;
+     flex-direction: row;
+     color: #14FFEC;
+     text-decoration: none;
+     justify-content: space-around;
+     gap: 10%;
+ 
+ 
+ 
+ 
+ }
+ 
+ .down a {
+ 
+     color: #14FFEC;
+     text-decoration: none;
+     font-size: large;
+ 
+ 
+ }
