@@ -1,11 +1,184 @@
-*{
-    margin:0px;
+* {
+    margin: 0px;
     padding: 0px;
-    }
-    body{
-        background-color:#0F0E0E;
-        color: #14FFEC;
-       
-       
-    }
+}
+
+body {
+    background-color: #0F0E0E;
+    color: #14FFEC;
+
+
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* in order to those 2 property work you need flex   */
+
+
+}
+
+.up p {
+    font-size: 34px;
+}
+
+.up {
+    display: flex;
+    width:45%;
+    height: 70%;
+    justify-content: space-around;
+    gap: 50%;
     
+  
+
+
+}
+.middel{
+    border-top: 1px solid #14FFEC;
+    width: 38%;
+    height: 100px;
+    margin: 10px 0;
+    display: flex;
+    
+ 
+   
+    
+}
+.circle{
+    margin-top: 10px;
+    width: 12%;
+    height: 62%;
+    border-radius: 50% ;
+    background-color: #e7eeed;
+ 
+  }
+  .circle p{
+    color: black;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 20px;
+    
+  }
+  
+.s-middle{
+   width: 100%;
+  display: flex;
+  padding: 20px 0px 0px 5px;  
+  
+  position: relative;
+  
+}
+.time{
+    position: absolute;
+   
+   top: 20px;
+   right: 16px;
+  
+ 
+}
+.up i{
+    font-size: 2.4em;
+}
+
+
+
+
+.down {
+    width: 45%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    color: #14FFEC;
+    text-decoration: none;
+    justify-content: space-around;
+    gap: 10%;
+
+
+
+
+}
+
+.down a {
+
+    color: #14FFEC;
+    text-decoration: none;
+    font-size: large;
+
+
+}
+
+.active {
+    color: #14FFEC;
+    text-decoration: double;
+
+}
+
+@media only screen and (max-width: 543px) {
+    
+    .up i{
+        font-size: 2.2em;
+    } 
+    .up p {
+        font-size: 31px;
+    }
+    .down a {
+
+        color: #14FFEC;
+        text-decoration: none;
+        font-size: small;
+    
+    
+    }
+    .middel{
+        border-top: 1px solid #14FFEC;
+        width: 45%;
+        margin: 5px 0;
+    }
+
+  }
+  @media only screen and (max-width: 400px) {
+    
+    .up i{
+        font-size: 1.7em;
+    } 
+    .up p {
+        font-size: 24px;
+    }
+    .down a {
+
+        color: #14FFEC;
+        text-decoration: none;
+        font-size: small;
+    
+    
+    }
+
+  }
+  @media only screen and (max-width: 300px) {
+    
+    .up i{
+        font-size: 1.4em;
+    } 
+    .up p {
+        font-size: 20px;
+    }
+    .down a {
+
+        color: #14FFEC;
+        text-decoration: none;
+        font-size: small;
+    
+    
+    }
+    .circle{
+        margin-top: 10px;
+        height: 15px;
+        width: 15px;
+        background-color: #bbb;
+        border-radius: 15%;
+      }
+
+  }
