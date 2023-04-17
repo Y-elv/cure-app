@@ -1,10 +1,173 @@
-*{
-    margin:0px;
+* {
+    margin: 0px;
     padding: 0px;
+}
+
+body {
+    background-color: #0F0E0E;
+    color: #14FFEC;
+
+
+}
+
+.therapist {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+
+
+}
+
+.above {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 300px;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.up-card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.down-card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card {
+
+
+    border: 1px solid;
+    color: #0F0E0E;
+    background-color: #14FFEC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 30px 10px;
+    border-radius: 10px;
+
+
+}
+
+.circle {
+    margin-top: 10px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 60%;
+    border-radius: 50%;
+    background-color: black;
+
+
+
+}
+
+.name {
+    color: #14FFEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 14px;
+    margin-top: -7px;
+
+
+}
+
+.contact #name {
+    display: flex;
+    justify-content: center;
+}
+
+.contact #tel {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* responsiveness part */
+
+@media only screen and (max-width:624px) {
+
+    .card-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
-    body{
-        background-color:#0F0E0E;
-        color: #14FFEC;
-       
-       
+
+    .up-card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
     }
+
+    .down-card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+
+@media only screen and (max-width:402px) {
+
+    .card-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-left: 200px;
+    }
+     .left{
+        margin-left: 40px;
+     font-size: 10px;
+    }
+
+    .above {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        margin-left: 15px;
+    
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        font-size: 7px;
+    }
+input{
+        size: 7px;
+    }
+
+}

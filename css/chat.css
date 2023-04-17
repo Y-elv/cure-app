@@ -163,11 +163,11 @@ a {
 @media only screen and (max-width: 400px) {
 
     .up i {
-        font-size: 1.7em;
+        font-size: 1.4em;
     }
 
     .up p {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .down a {
@@ -178,6 +178,23 @@ a {
 
 
     }
+    .s-middle {
+        width: 100%;
+        display: flex;
+        padding: 20px 0px 0px 5px;
+        position: relative;
+        font-size: 7px;
+    
+    }
+    .circle {
+        margin-top: 10px;
+        width: 12%;
+        height: 32%;
+        border-radius: 50%;
+        background-color: #e7eeed;
+    
+    }
+    
     
 }
 
