@@ -40,7 +40,6 @@ body {
     border-top: 1px solid #14FFEC;
     width: 38%;
     height: 100px;
-    margin: 10px 0;
     display: flex;
 
 
@@ -155,7 +154,7 @@ a {
     .middel {
         border-top: 1px solid #14FFEC;
         width: 45%;
-        margin: 5px 0;
+       
     }
     
 }
@@ -192,6 +191,15 @@ a {
         height: 32%;
         border-radius: 50%;
         background-color: #e7eeed;
+    
+    }
+    .circle p {
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        font-size: small;
     
     }
     
