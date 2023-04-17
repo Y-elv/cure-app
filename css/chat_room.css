@@ -18,7 +18,7 @@ body {
    
     
 }
-.circle{
+.circlee{
     margin-top: 10px;
     width: 5%;
     height: 50%;
@@ -26,7 +26,7 @@ body {
     background-color: #14FFEC;
  
   }
-  .circle p{
+  .circlee p{
     color: black;
     display: flex;
    align-items: center;
@@ -35,7 +35,7 @@ body {
     
   }
   
-.s-middle{
+.s-middlee{
    width: 10%;
   display: flex;
   padding: 20px 0px 0px 5px;  
@@ -43,7 +43,7 @@ body {
   position: relative;
   
 }
-.s-middle{
+.s-middlee{
   color: #14FFEC;
 }
 
