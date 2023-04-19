@@ -30,20 +30,13 @@ body {
     height: 70%;
     justify-content: space-around;
     gap: 50%;
-    
-  
-
-
-}
+    }
 .middel{
     border-top: 1px solid #14FFEC;
     width: 38%;
     height: 100px;
     margin: 10px 0;
     display: flex;
-    
- 
-   
     
 }
 .circle{
