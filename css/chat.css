@@ -30,10 +30,6 @@ body {
     height: 70%;
     justify-content: space-around;
     gap: 50%;
-<<<<<<< HEAD
-    }
-.middel{
-=======
 
 
 
@@ -41,19 +37,14 @@ body {
 }
 
 .middel {
->>>>>>> fb8cd9da401738514a74c02b6bf093592f87c936
     border-top: 1px solid #14FFEC;
     width: 38%;
     height: 100px;
     display: flex;
-<<<<<<< HEAD
-    
-=======
 
 
 
 
->>>>>>> fb8cd9da401738514a74c02b6bf093592f87c936
 }
 
 .circle {
