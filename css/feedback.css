@@ -41,7 +41,7 @@ form input{
      width: 100%;
      height: 50px;
      margin: 4px 0;
-     border-radius: 3px ;
+     border-radius: 10px ;
      border: 1px solid #14FFEC;
      background: #000;
      padding: 0 15px;
@@ -51,7 +51,7 @@ form input{
 form textarea{
      padding: 5px 15px;
      border: 1px solid #14FFEC;
-     border-radius: 3px;
+     border-radius: 10px;
      background: black;
      font-size: 20px;
      width: 100%;
@@ -64,13 +64,13 @@ button{
      border: none;
      background-color: #14FFEC;
      padding: 10px 0;
-     width: 100%;
+     width: 80%;
      font-size: 20px;
      font-weight: 800;
      border-radius: 50px;
 }
 .down {
-     width: 45%;
+     width: 100%;
      height: 40%;
      display: flex;
      flex-direction: row;
@@ -78,6 +78,7 @@ button{
      text-decoration: none;
      justify-content: space-around;
      gap: 10%;
+     margin-top: 250px;
  
  
  
@@ -92,6 +93,7 @@ button{
  
  
  }
+<<<<<<< HEAD
  .success{
      color: black;
      font-size: 0.9rem;
@@ -102,4 +104,10 @@ button{
      margin: 0 auto;
      margin-bottom: 15px;
      margin-right: 20px;
+=======
+ .active {
+     color: #14FFEC;
+     text-decoration: double;
+ 
+>>>>>>> 2a3a8a0f9c15b9e2ab4803ab0acc75c1f2a401c4
  }

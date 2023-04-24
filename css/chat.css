@@ -31,6 +31,7 @@ body {
     justify-content: space-around;
     gap: 50%;
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 .middel{
 =======
@@ -42,6 +43,10 @@ body {
 
 .middel {
 >>>>>>> fb8cd9da401738514a74c02b6bf093592f87c936
+=======
+    }
+.middel{
+>>>>>>> 2a3a8a0f9c15b9e2ab4803ab0acc75c1f2a401c4
     border-top: 1px solid #14FFEC;
     width: 38%;
     height: 100px;
