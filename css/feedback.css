@@ -92,3 +92,14 @@ button{
  
  
  }
+ .success{
+     color: black;
+     font-size: 0.9rem;
+     background-color: #14FFEC;
+     border-radius: 5px;
+     width: max-content;
+     padding: 7px 20px;
+     margin: 0 auto;
+     margin-bottom: 15px;
+     margin-right: 20px;
+ }
